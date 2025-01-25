@@ -15,6 +15,8 @@ function calcAverageCalories(days) {
   return 0;
 }
 
+console.log('// Задача 2. Розрахунок калорій');
+
 console.log(
   calcAverageCalories([
     { day: 'monday', calories: 3010 },
@@ -40,3 +42,5 @@ console.log(
 ); // 2270
 
 console.log(calcAverageCalories([])); // 0
+
+console.log('\n');
